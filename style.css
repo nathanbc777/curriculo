@@ -1,0 +1,40 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #4c41df;
+    --cor-verde: #68baa6;
+    --cor-clara: #68baa6;
+    --cor-musgo: #4e8074;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#body {
+    background-color: var(--cor-principal);
+}
+.lead {
+    font-weight: 700;
+}
+#rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-clara);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.habilidades:hover .badge {
+    background-color: var(--cor-branco) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
